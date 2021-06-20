@@ -7,5 +7,5 @@ import com.android.roomdbmultipletable.entities.School
 
 data class SchoolAndDirector(
     @Embedded val school: School,
-    @Relation(parentColumn = "schoolName", entityColumn ="schoolName " ) val director: Director
+    @Relation(parentColumn = "schoolName", entityColumn ="schoolName" ) val director: Director
 )

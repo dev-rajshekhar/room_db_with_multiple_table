@@ -8,5 +8,5 @@ import com.android.roomdbmultipletable.entities.Student
 
 data class SchoolWithStudents(
     @Embedded val school: School,
-    @Relation(parentColumn = "schoolName", entityColumn = "schoolName ") val students: List<Student>
+    @Relation(parentColumn = "schoolName", entityColumn = "schoolName") val students: List<Student>
 )
